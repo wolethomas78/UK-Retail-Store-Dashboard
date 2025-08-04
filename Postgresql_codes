@@ -1,4 +1,61 @@
+# UK Online Retail Transaction 
 
+This project delivers a PostgreSQL database and a set of analytical SQL queries to explore transactional data from a **UK-based, registered non-store online retail company** that sells **unique all-occasion gifts**.  
+
+The dataset contains **all transactions from December 1, 2010, to December 9, 2011**, including sales to both individual customers and wholesalers. It captures details such as invoice numbers, product codes, quantities, prices, customer IDs, and countries.
+
+---
+
+## Project Preview
+
+### **Dashboard Insights**
+- **Total Sales Metrics:** Calculate total quantity sold and overall revenue  
+- **Customer Analytics:** Count distinct customers and identify top customers by revenue  
+- **Geographic Sales:** Analyze revenue contribution by country  
+- **Time-Based Trends:** Generate daily, monthly, and yearly revenue summaries  
+- **Returns Analysis:** Identify products with the highest number of returns  
+
+---
+
+## Database Schema
+
+| Field           | Type       | Description                                                               |
+|-----------------|-----------|---------------------------------------------------------------------------|
+| `InvoiceNo`      | VARCHAR    | Unique transaction ID (invoices starting with `C` = cancellation)          |
+| `StockCode`      | VARCHAR    | Unique product/item code                                                  |
+| `Description`    | VARCHAR    | Product name or description                                               |
+| `Quantity`       | INT        | Units sold per transaction (negative = return)                            |
+| `InvoiceDate`    | TIMESTAMP  | Date and time when transaction occurred                                   |
+| `UnitPrice`      | DECIMAL    | Price per unit of product (in sterling)                                   |
+| `CustomerID`     | INT        | Unique identifier for each customer                                       |
+| `Country`        | VARCHAR    | Country where customer resides                                            |
+| `CustomerType`   | VARCHAR    | (Optional) Retail or wholesale classification                             |
+| `ReturnQuantity` | INT        | Quantity of returned items                                                 |
+| `NewUnitPrice`   | DECIMAL    | Adjusted price after returns or discounts                                 |
+| `ReturnUnit`     | DECIMAL    | Unit return value                                                         |
+
+---
+
+# Core Analytics Queries
+Total Quantity: SELECT SUM(Quantity) FROM onlineretail;
+
+Total Revenue: SELECT SUM(Quantity * UnitPrice) FROM onlineretail;
+
+Distinct Customers: SELECT COUNT(DISTINCT CustomerID) FROM onlineretail;
+
+Revenue by Country: Aggregated sales by Country
+
+Top 10 Customers: Highest revenue contributors
+
+Daily, Monthly, Yearly Revenue: Time-based revenue breakdowns
+
+Top Returned Products: Products with highest negative quantities
+
+
+
+##  SQL Setup
+
+### **Table Creation**
 
 -- Creating online retail table for the clean data from python
 DROP TABLE IF EXISTS onlineretail; 
