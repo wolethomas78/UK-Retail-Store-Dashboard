@@ -1,0 +1,92 @@
+
+
+-- Creating online retail table for the clean data from python
+DROP TABLE IF EXISTS onlineretail; 
+CREATE TABLE onlineretail (
+InvoiceNo VARCHAR (50),
+StockCode VARCHAR (50),
+Description VARCHAR (50),
+Quantity INT,
+InvoiceDate	DATE,
+UnitPrice DECIMAL (10,2),
+CustomerID VARCHAR (50),
+Country VARCHAR (50),
+CustomerType VARCHAR (50),
+ReturnQuantity INT,
+NewUnitPrice DECIMAL (10,2),
+ReturnUnit DECIMAL (10,2)
+);
+
+-- Copying the bulk file to POSTGRESQL for querying
+TRUNCATE TABLE onlineretail;
+COPY onlineretail
+FROM 'C:/Program Files/PostgreSQL/16/onlinecleaned_data.csv'
+DELIMITER ','
+CSV HEADER
+ENCODING 'WIN1252';
+
+SELECT * FROM onlineretail;
+
+-- calculating the total quantity of the product
+SELECT SUM (quantity) AS total_quantity
+FROM onlineretail;
+
+-- calculating the total revenue
+SELECT SUM(quantity * unitprice) AS revenue
+FROM onlineretail;
+
+-- calculating the number of our customer
+SELECT COUNT(DISTINCT customerid) AS total_customers
+FROM onlineretail;
+
+
+-- calculating revenue by country
+SELECT country, SUM(quantity * unitprice) AS revenue
+FROM onlineretail
+GROUP BY country
+ORDER BY revenue DESC;
+
+-- determining our top 10 customer giving us high revenue
+SELECT customerid, SUM(quantity * unitprice) AS revenue
+FROM onlineretail
+GROUP BY customerid
+ORDER BY revenue DESC
+LIMIT 5;
+
+-- calculating daily revenue
+SELECT 
+    DATE(invoicedate) AS date,
+    SUM(quantity * unitprice) AS daily_revenue
+FROM onlineretail
+GROUP BY DATE(invoicedate)
+ORDER BY date;
+
+--calculating monthly revenue
+SELECT 
+    DATE_TRUNC('month', invoicedate) AS month,
+    SUM(quantity * unitprice) AS monthly_revenue
+FROM onlineretail
+GROUP BY month
+ORDER BY month;
+
+-- calculating yearly revenue
+SELECT 
+    DATE_TRUNC('year', invoicedate) AS year,
+    SUM(quantity * unitprice) AS yearly_revenue
+FROM onlineretail
+GROUP BY year
+ORDER BY year;
+
+-- calculating total items returned by stockcode and description
+SELECT stockcode, description, SUM(quantity) AS total_returned
+FROM onlineretail
+WHERE quantity < 0
+GROUP BY stockcode, description
+ORDER BY total_returned ASC
+LIMIT 10;
+
+
+
+
+
+
