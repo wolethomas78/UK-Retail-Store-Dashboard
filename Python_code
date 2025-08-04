@@ -1,4 +1,54 @@
+ Online Retail Data Cleaning Project
+# Overview
+This project focuses on cleaning and preprocessing an online retail dataset to prepare it for further analysis and modeling. Using Python with Pandas and NumPy, the script loads raw Excel data, standardizes column names, handles missing values, removes duplicates, engineers new features, and exports a cleaned dataset.
 
+# Key Steps Performed
+Importing Libraries
+
+Utilized pandas and numpy for data manipulation and preprocessing.
+
+Data Loading
+
+Loaded raw sales data from an Excel file into a DataFrame.
+
+Data Cleaning
+
+Standardized column names to lowercase for consistency.
+
+Removed duplicate rows.
+
+Cleaned string fields (removed whitespaces, converted text to title case, and removed special characters).
+
+Filled missing values in critical columns like customerid, stockcode, and description.
+
+Customer Type Classification
+
+Added a new feature customer_type to distinguish between Guest and Registered customers.
+
+Invoice Processing
+
+Cleaned invoice numbers and ensured non-null values.
+
+Feature Engineering
+
+Created separate columns for sold and returned quantities.
+
+Separated positive and negative unit prices for better analysis.
+
+Missing Value Check
+
+Verified and reported any remaining missing values.
+
+Output
+
+Exported a fully cleaned dataset (cleaned_data.xlsx) ready for further data analysis or visualization.
+
+# Next Steps
+Perform exploratory data analysis (EDA) to uncover trends, sales patterns, and customer behavior.
+
+Build sales forecasting models or customer segmentation analysis.
+
+Create dashboards for visualization (e.g., using Tableau)
 
 
 
