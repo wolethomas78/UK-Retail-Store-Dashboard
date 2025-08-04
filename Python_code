@@ -1,0 +1,53 @@
+
+
+
+
+# Importing pandas and numpy libraries
+import pandas as pd
+import numpy as np
+
+# Loading the Excel dataset
+df = pd.read_excel(r"C:/Users/bola/Downloads/online+retail/Online Retail.xlsx")
+
+# Standardizing column names
+df.columns = df.columns.str.strip().str.lower()
+
+# Removing duplicate rows
+df = df.drop_duplicates()
+
+
+# Creating a new column for customer type
+df['customer_type'] = df['customerid'].apply(lambda x: 'Guest' if x == 0 else 'Registered')
+
+# Cleaning and formatting string columns
+df['invoiceno'] = df['invoiceno'].str.strip()
+df['stockcode'] = df['stockcode'].str.strip()
+df['description'] = df['description'].str.strip().str.title()
+df['country'] = df['country'].str.strip().str.title()
+
+# Handling missing values
+df['customerid'] = df['customerid'].fillna(0).astype(int)
+df['stockcode'].fillna('Unknown', inplace=True)
+df['description'].fillna('Unknown', inplace=True)
+
+
+# Creating a numeric invoice number column
+#df['invoicenumber'] = df['invoiceno'].str.slice(1)
+
+df['invoiceno'].fillna('n/a', inplace=True)
+
+# Remove ?, * from the column
+df['description'] = df['description'].str.replace(r'[\?\*]', '', regex=True)
+
+# Feature engineering for quantity and unit price
+df['sold_quantity'] = df['quantity'].apply(lambda x: x if x > 0 else 0)
+df['return_quantity'] = df['quantity'].apply(lambda x: x if x < 0 else 0)
+df['unit_price'] = df['unitprice'].apply(lambda x: x if x > 0 else 0)
+df['negative_unitprice'] = df['unitprice'].apply(lambda x: x if x < 0 else 0)
+
+# Checking for remaining missing values
+missing_values = df.isnull().sum()
+print(missing_values)
+
+# Export cleaned dataset
+df.to_excel('cleaned_data.xlsx', index=False)
