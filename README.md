@@ -59,5 +59,11 @@ This project provides an interactive dashboard for analyzing transactional data 
 
 ## License
 
+
+
+
+
+
+
 This project is open-source and available under the [MIT License](LICENSE).
 
