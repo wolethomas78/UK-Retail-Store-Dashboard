@@ -62,35 +62,35 @@ You can access the dynamic dashboard here: [Tableau dynamic Dashboard](https://p
 ---
 
 ## License
-
+This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 ## KPI Analysis Report
-1. Chart Reference
+### 1. Chart Reference
 The analysis shows a sharp increase in both Quantity and Revenue from Dec-2010 to Dec-2011.
 Quantity increased from 341,038 to 4,821,464
 Revenue rose from 746,723.61 to 8,979,283.34
 
-2. Observation
+### 2. Observation
 Quantity Growth: +1314%
 Revenue Growth: +1102%
 Return Items: Increased from 20,056 to 462,461, with return rate rising from 5.88% to 9.59%
 Total Customers: Increased by 347% (from 949 to 4,245)
 Revenue per Customer: Increased from 786.85 to $2,115.26
 
-3. Interpretation
+### 3. Interpretation
 The massive growth in quantity and revenue indicates a large sales spike, likely due to a campaign or seasonal demand.
 Higher return rates suggest potential issues with product quality, fulfillment, or mismatched customer expectations.
 Revenue per customer more than doubled, meaning each customer is spending more on average.
 
-4. Impact
+### 4. Impact
 Positive
 Significant revenue and customer growth, strengthening overall market reach.
 
-Negative
+### Negative
 Sharp increase in returns (over 9%) could lead to additional costs and affect profitability and customer satisfaction.
 
-5. Recommendation
+### 5. Recommendation
 Investigate the cause of high returns (e.g., product defects, sizing issues, delivery problems).
 Enhance quality checks and improve product descriptions to reduce returns.
 Leverage the surge in customers by launching loyalty programs to retain them.
@@ -101,5 +101,5 @@ Analyze which products or campaigns drove the spike to replicate success in futu
 
 
 
-This project is open-source and available under the [MIT License](LICENSE).
+
 
