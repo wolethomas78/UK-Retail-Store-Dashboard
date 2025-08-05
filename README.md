@@ -137,11 +137,11 @@ This report highlights the Top 5 customers based on total purchase amounts, incl
 
 ### Customer Purchase Data
 Rank	Customer ID / Type	Total Purchase in GBP
-- 1	Unregistered	1,447,488
-- 2	14646	           279,489
-- 3	18102	           256,438
-- 4	17450	           187,322
-- 5	14911	           132,459
+- 1	Unregistered =	1,447,488
+- 2	14646	   =     279,489
+- 3	18102	   =     256,438
+- 4	17450	   =     187,322
+- 5	14911	   =     132,459
 
 ### Observations
 Unregistered customers contribute the largest share with 1.45M in purchases.
