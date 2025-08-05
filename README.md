@@ -161,6 +161,38 @@ Strong individual customer purchases suggest potential for VIP loyalty programs.
  Develop exclusive rewards programs for top customers to increase repeat purchases.
  Analyze purchasing behavior of top customers to identify cross-selling and upselling opportunities.
 
+ ---
+
+ ## Revenue Distribution Report (2010 vs 2011)
+ ![alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/944fb9995b05269080de66ed7335f762b6a13038/ukpie.png)
+ 
+### Overview
+This report shows the percentage of total revenue contributed by 2010 and 2011, visualized as a pie chart.
+
+### Revenue Percentage Data
+Year	Revenue Percentage
+2010	7.08%
+2011	92.32%
+
+ Revenue Split (Pie Chart)
+
+### Observations
+2011 generated the majority of revenue (92.32%), while 2010 contributed only 7.08%.
+Indicates rapid growth or a significant operational scale-up in 2011.
+
+### Interpretation
+Strong revenue dominance in 2011 suggests effective sales strategies or market expansion during that year.
+The small share in 2010 may represent early operations or a pre-growth phase.
+
+### Impact
+The company saw a massive year-over-year increase, improving overall profitability.
+This trend can influence future budget planning and investment decisions.
+
+### Recommendations
+ Analyze drivers of 2011’s success (products, campaigns, market conditions) to replicate growth.
+ Use insights from 2011 to forecast and plan for upcoming years.
+ Maintain focus on high-performing strategies while addressing 2010’s performance gaps.
+
 
 
 
