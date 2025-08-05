@@ -193,10 +193,51 @@ This trend can influence future budget planning and investment decisions.
  Use insights from 2011 to forecast and plan for upcoming years.
  Maintain focus on high-performing strategies while addressing 2010’s performance gaps.
 
+---
 
+## Country-wise Revenue Report
 
+![alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/62b34436c49257e0de84f9aca06ab95474946789/ukrevenue.png)
 
+### Overview
+This report shows the total revenue generated per country, highlighting the top-performing regions contributing to overall sales.
 
+ ### Observations
+The United Kingdom dominates with over GBP 8.16M, significantly higher than all other countries.
+The Netherlands, Eire, and Germany form the next top tier of revenue contributors.
+Several countries contribute under GBP2K, indicating minor market presence.
+
+### Interpretation
+The company has a strong market base in the UK, suggesting primary operations are UK-focused.
+European countries account for the majority of additional revenue streams.
+Low sales in North America, Asia, and the Middle East highlight untapped growth opportunities.
+
+### Impact
+Heavy dependence on UK revenue increases market concentration risk.
+Limited presence in emerging markets may restrict global growth potential.
+
+### Recommendations
+ Expand marketing and operations in underperforming but high-potential regions (e.g., USA, Canada, Asia).
+ Optimize logistics and supply chain to serve international customers more efficiently.
+ Conduct regional market analysis to identify barriers and opportunities for scaling globally.
+
+---
+
+### Methodology
+ Aggregated monthly revenue and sales data segmented by categories and regions.
+ Performed country-wise revenue analysis to identify top markets and untapped regions.
+ Built a Power BI dashboard with interactive filters, drill-through capabilities, and visual elements (line chart, pie chart, bar chart, and maps).
+ Highlighted top-performing customers, yearly trends (2010–2011), and revenue distribution to support business decisions.
+
+### Contact Me
+ Connect with me on LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluwolefagbemi)
+ Email: wolethomas78@gmail.com
+ Open to collaborations, discussions, and data analytics opportunities
+
+### Why This Project Matters
+This dashboard demonstrates how data-driven decision-making can optimize sales strategies and enhance business performance.
+It showcases skills in data analysis, visualization, storytelling, and KPI tracking — crucial for business intelligence and analytics roles.
+Helps stakeholders quickly identify revenue drivers, regional strengths, and growth opportunities.
 
 
 
