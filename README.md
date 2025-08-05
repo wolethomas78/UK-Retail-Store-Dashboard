@@ -65,6 +65,7 @@ You can access the dynamic dashboard here: [Tableau dynamic Dashboard](https://p
 This project is open-source and available under the [MIT License](LICENSE).
 ---
 
+![alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/2c744d517fc0d3a054ad240917d672e2f72a6d64/UkKpi.png)
 ## KPI Analysis Report
 ### 1. Chart Reference
 The analysis shows a sharp increase in both Quantity and Revenue from Dec-2010 to Dec-2011.
