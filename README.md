@@ -128,6 +128,41 @@ Replicate successful strategies from September–November to maintain high reven
 Optimize early-year campaigns to smooth out revenue fluctuations.
 Strengthen inventory management and logistics for peak sales periods.
 
+---
+
+![alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/ff6bdacd1bf07c9dc0da8661b577abcc905e4efc/uktop5.png)
+## Top 5 Customers Report
+ ### Overview
+This report highlights the Top 5 customers based on total purchase amounts, including a category for Unregistered Customers.
+
+### Customer Purchase Data
+Rank	Customer ID / Type	Total Purchase ($)
+1	Unregistered	1,447,458
+2	14648	279,489
+3	18102	256,438
+4	17450	187,322
+5	14911	132,459
+
+### Observations
+Unregistered customers contribute the largest share with $1.45M in purchases.
+Registered customers 14648 and 18102 are the top-performing individuals.
+The top 5 customers collectively account for a significant portion of overall revenue.
+
+### Interpretation
+Heavy reliance on unregistered users could indicate missed opportunities for customer profiling and retention strategies.
+Registered high-value customers show strong loyalty and purchasing power.
+
+## Impact
+Lack of registration data may limit personalized marketing and long-term retention.
+Strong individual customer purchases suggest potential for VIP loyalty programs.
+
+## Recommendations
+ Encourage unregistered customers to create accounts (offer incentives like discounts or points).
+ Develop exclusive rewards programs for top customers to increase repeat purchases.
+ Analyze purchasing behavior of top customers to identify cross-selling and upselling opportunities.
+
+
+
 
 
 
