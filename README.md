@@ -80,7 +80,7 @@ Quantity Growth: +1314%
 Revenue Growth: +1102%
 Return Items: Increased from 20,056 to 462,461, with return rate rising from 5.88% to 9.59%
 Total Customers: Increased by 347% (from 949 to 4,245)
-Revenue per Customer: Increased from 786.85 to $2,115.26
+Revenue per Customer: Increased from 786.85 to 2,115.26
 
 ### 3. Interpretation
 The massive growth in quantity and revenue indicates a large sales spike, likely due to a campaign or seasonal demand.
@@ -136,15 +136,15 @@ Strengthen inventory management and logistics for peak sales periods.
 This report highlights the Top 5 customers based on total purchase amounts, including a category for Unregistered Customers.
 
 ### Customer Purchase Data
-Rank	Customer ID / Type	Total Purchase ($)
+Rank	Customer ID / Type	Total Purchase in GBP
 1	Unregistered	1,447,458
-2	14648	279,489
-3	18102	256,438
-4	17450	187,322
-5	14911	132,459
+2	14648	       279,489
+3	18102	       256,438
+4	17450	       187,322
+5	14911	       132,459
 
 ### Observations
-Unregistered customers contribute the largest share with $1.45M in purchases.
+Unregistered customers contribute the largest share with 1.45M in purchases.
 Registered customers 14648 and 18102 are the top-performing individuals.
 The top 5 customers collectively account for a significant portion of overall revenue.
 
