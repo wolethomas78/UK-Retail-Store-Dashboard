@@ -54,10 +54,10 @@ You can access the dynamic dashboard here: [Tableau dynamic Dashboard](https://p
 
 ## Usage
 
-1. Clone this repository  
-2. Load the dataset into your preferred environment  
-3. Run the dashboard script or open the BI tool  
-4. Explore interactive charts and KPIs  
+- 1. Clone this repository  
+- 2. Load the dataset into your preferred environment  
+- 3. Run the dashboard script or open the BI tool  
+- 4. Explore interactive charts and KPIs  
 
 ---
 
@@ -137,11 +137,11 @@ This report highlights the Top 5 customers based on total purchase amounts, incl
 
 ### Customer Purchase Data
 Rank	Customer ID / Type	Total Purchase in GBP
-1	Unregistered	1,447,458
-2	14648	       279,489
-3	18102	       256,438
-4	17450	       187,322
-5	14911	       132,459
+- 1	Unregistered	1,447,458
+- 2	14648	       279,489
+- 3	18102	       256,438
+- 4	17450	       187,322
+- 5	14911	       132,459
 
 ### Observations
 Unregistered customers contribute the largest share with 1.45M in purchases.
