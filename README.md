@@ -101,6 +101,33 @@ Leverage the surge in customers by launching loyalty programs to retain them.
 Monitor scalability and fulfillment processes to handle spikes without affecting product quality.
 Analyze which products or campaigns drove the spike to replicate success in future periods.
 
+---
+
+## Revenue Trend Report (2010–2011)
+![alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/4f83be0ec9b419b2de5a6c17ca1fa6e405df2cf8/UKlinetrend.png)
+### Overview
+This report visualizes monthly Revenue data for 2010 and 2011, highlighting a significant upward trend throughout 2011.
+
+ ### Revenue Trend (Line Chart)
+
+#### Observations
+2010: No recorded revenue across all months.
+2011: Consistent monthly revenue, averaging around $630K in early months.
+Sharp growth from September to November, peaking at $1.46M.
+
+### Interpretation
+Strong upward trend in late 2011 suggests seasonal demand or successful marketing campaigns.
+Sustained revenue across the year indicates improved market positioning compared to 2010.
+
+### Impact
+Marked year-over-year growth, with 2011 far exceeding 2010 results.
+Significant Q4 sales surge could highlight holiday-driven performance boosts.
+
+### Recommendations
+Replicate successful strategies from September–November to maintain high revenue levels.
+Optimize early-year campaigns to smooth out revenue fluctuations.
+Strengthen inventory management and logistics for peak sales periods.
+
 
 
 
