@@ -7,7 +7,9 @@ This is a transactional data set which contains all the transactions occurring b
 
 This project provides an interactive dashboard for analyzing transactional data from a **UK-based, registered non-store online retail company** that sells **unique all-occasion gifts**. The dataset includes **all transactions between December 1, 2010, and December 9, 2011**, capturing both individual and wholesale customers.
 [Online Retail Store](https://archive.ics.uci.edu/dataset/352/online+retail)
+
 ---
+[alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/2d2224a81a0cb3db91c894ea19cc1d3a6ec2b98a/UKdashboard.png)
 
 ## Dataset Overview
 
