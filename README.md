@@ -145,7 +145,7 @@ Rank	Customer ID / Type	Total Purchase in GBP
 
 ### Observations
 Unregistered customers contribute the largest share with 1.45M in purchases.
-Registered customers 14648 and 18102 are the top-performing individuals.
+Registered customers 14646 and 18102 are the top-performing individuals.
 The top 5 customers collectively account for a significant portion of overall revenue.
 
 ### Interpretation
