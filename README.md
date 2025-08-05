@@ -46,7 +46,7 @@ You can access the dynamic dashboard here: [Tableau dynamic Dashboard](https://p
 
 ## Tech Stack
 
-- **Data Processing:** Python (Pandas, NumPy) [Pandas code](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/cb4d7b8c7fc9fa9ac13a83786eb6e672572d977b/Python_code)
+- **Data Processing:** Python (Pandas, NumPy) You can access the Python code here [Pandas code](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/cb4d7b8c7fc9fa9ac13a83786eb6e672572d977b/Python_code)
 - **Database:** SQL (Postgresql) You can access the Postgresql code here: [Postgresql Code](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/3b491545bf525d2d57c305ae573954f6c1562e0b/Postgresql_codes)
 - **Visualization:** Tableau 
 
