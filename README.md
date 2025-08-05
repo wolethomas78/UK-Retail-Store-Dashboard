@@ -10,6 +10,8 @@ This project provides an interactive dashboard for analyzing transactional data 
 
 ---
 ![alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/2d2224a81a0cb3db91c894ea19cc1d3a6ec2b98a/UKdashboard.png)
+You can access the dynamic dashboard here: [Tableau dynamic Dashboard](https://public.tableau.com/app/profile/oluwole.fagbemi2492/viz/UKonlineRetailDashboard/Dashboard1?publish=yes)
+
 
 ## Dataset Overview
 
