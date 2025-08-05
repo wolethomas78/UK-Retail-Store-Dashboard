@@ -47,7 +47,7 @@ You can access the dynamic dashboard here: [Tableau dynamic Dashboard](https://p
 ## Tech Stack
 
 - **Data Processing:** Python (Pandas, NumPy)
-- **Database:** SQL (Postgresql)
+- **Database:** SQL (Postgresql) You can access the Postgresql code here: (https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/3b491545bf525d2d57c305ae573954f6c1562e0b/Postgresql_codes)
 - **Visualization:** Tableau 
 
 ---
