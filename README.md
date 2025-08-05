@@ -224,20 +224,20 @@ Limited presence in emerging markets may restrict global growth potential.
 ---
 
 ### Methodology
- Aggregated monthly revenue and sales data segmented by categories and regions.
- Performed country-wise revenue analysis to identify top markets and untapped regions.
- Built a Power BI dashboard with interactive filters, drill-through capabilities, and visual elements (line chart, pie chart, bar chart, and maps).
- Highlighted top-performing customers, yearly trends (2010–2011), and revenue distribution to support business decisions.
+- Aggregated monthly revenue and sales data segmented by categories and regions.
+- Performed country-wise revenue analysis to identify top markets and untapped regions.
+- Built a Power BI dashboard with interactive filters, drill-through capabilities, and visual elements (line chart, pie chart, bar chart, and maps).
+- Highlighted top-performing customers, yearly trends (2010–2011), and revenue distribution to support business decisions.
 
 ### Contact Me
- Connect with me on LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluwolefagbemi)
- Email: wolethomas78@gmail.com
- Open to collaborations, discussions, and data analytics opportunities
+- Connect with me on LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluwolefagbemi)
+- Email: wolethomas78@gmail.com
+- Open to collaborations, discussions, and data analytics opportunities
 
 ### Why This Project Matters
-This dashboard demonstrates how data-driven decision-making can optimize sales strategies and enhance business performance.
-It showcases skills in data analysis, visualization, storytelling, and KPI tracking — crucial for business intelligence and analytics roles.
-Helps stakeholders quickly identify revenue drivers, regional strengths, and growth opportunities.
+- This dashboard demonstrates how data-driven decision-making can optimize sales strategies and enhance business performance.
+- It showcases skills in data analysis, visualization, storytelling, and KPI tracking — crucial for business intelligence and analytics roles.
+- Helps stakeholders quickly identify revenue drivers, regional strengths, and growth opportunities.
 
 
 
