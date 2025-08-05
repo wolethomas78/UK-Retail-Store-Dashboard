@@ -9,7 +9,7 @@ This project provides an interactive dashboard for analyzing transactional data 
 [Online Retail Store](https://archive.ics.uci.edu/dataset/352/online+retail)
 
 ---
-[alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/2d2224a81a0cb3db91c894ea19cc1d3a6ec2b98a/UKdashboard.png)
+![alt image](https://github.com/wolethomas78/UK-Retail-Store-Dashboard/blob/2d2224a81a0cb3db91c894ea19cc1d3a6ec2b98a/UKdashboard.png)
 
 ## Dataset Overview
 
