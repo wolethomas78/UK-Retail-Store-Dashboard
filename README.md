@@ -3,6 +3,11 @@ This is a transactional data set which contains all the transactions occurring b
 
 ## Table of Content
   - [UK Online Retail Transaction Dashboard](#uk-online-retail-transaction-dashboard)
+  - [Dataset Overview](#dataset-overview)
+  - [Dashboard Features](#dashboard-features)
+
+  -
+
 
 
 
