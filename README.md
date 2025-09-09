@@ -5,9 +5,10 @@ This is a transactional data set which contains all the transactions occurring b
   - [UK Online Retail Transaction Dashboard](#uk-online-retail-transaction-dashboard)
   - [Dataset Overview](#dataset-overview)
   - [Dashboard Features](#dashboard-features)
-
-  -
-
+  - [KPI Analysis Report](#kpi-analysis-report)
+  - [Revenue Trend Report (2010–2011)](#revenue-trend-report-20102011)
+  - Top 5 Customers Report](#top-5-customers-report)
+  - [Revenue Distribution Report (2010 vs 2011)](#revenue-distribution-report-2010-vs-2011)
 
 
 
